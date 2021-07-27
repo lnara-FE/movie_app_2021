@@ -1,8 +1,11 @@
 import React from 'react';
 
-function Food({fav}) {
+function Food({name, picture}) {
     return (
-        <h2>I love {fav}</h2>
+        <div className="food-item">
+            <h2>I love {name}</h2>
+            <img src={picture} alt={name}/>
+        </div>
     );
 }
 
