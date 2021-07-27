@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Food(props) {
+function Food({fav}) {
     return (
-        <h2>I love {props.fav}</h2>
+        <h2>I love {fav}</h2>
     );
 }
 
